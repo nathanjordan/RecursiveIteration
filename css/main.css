@@ -1,22 +1,54 @@
+@font-face {
+  font-family: 'Frontage';
+  src: url('/fonts/frontage-regular.woff');
+}
+@font-face {
+  font-family: 'Frontage';
+  font-weight: bold;
+  src: url('/fonts/frontage-bold.woff');
+}
 
+body {
+    color: #fff;
+    background-color: transparent;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+html {
+  background: url('/img/bg/bay1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
 
+#content {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width:300px;
+}
+#logo {
+    border-radius: 15px;
+    text-align:center;
+    cursor: default;
+    text-transform: uppercase;
+    font-family: 'Frontage';
+    border: 3px solid;
+    padding:15px;
+    margin-bottom:15px;
+}
 
+#logo .recursive {
+    font-weight:bold;
+    font-size: 32px;
+}
 
+#logo .iteration {
+    font-size: 24px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#content .words {
+    padding-left:15px;
+    padding-right:15px;
+    font-family: 'Georgia', 'Serif';
+}
