@@ -8,17 +8,19 @@
   src: url('/fonts/frontage-bold.woff');
 }
 
+html, body {
+    margin: 0px;
+    width: 100%;
+}
+
 body {
     color: #fff;
+    text-shadow:0px -1px 0px #4A3721;
     background-color: transparent;
 }
 
 html {
-  background: url('/img/bg/bay1.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('/img/bg/wood.jpg') repeat;
   }
 
 #content {
@@ -51,4 +53,37 @@ html {
     padding-left:15px;
     padding-right:15px;
     font-family: 'Georgia', 'Serif';
+}
+
+#colors {
+    width:100%;
+}
+.color {
+    display: inline-block;
+    margin: 0px;
+    margin-left:-4px;
+    padding:0px;
+    height: 20px;
+    width: 20%;
+}
+
+#nav {
+    width:680px;
+    padding:0px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    width:140px;
+    font-size:18px;
+    margin-left: 8px;
+    font-family: 'Arial';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
 }
