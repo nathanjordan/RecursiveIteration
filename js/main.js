@@ -6,3 +6,9 @@ $().ready(function() {
         console.log(data);
     });
 });
+
+$(document).ready(function() {
+    var controller = $.superscrollorama({
+        playoutAnimations: true
+    });
+});
