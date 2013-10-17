@@ -20,7 +20,7 @@ body {
 }
 
 html {
-  background: url('/img/bg/paper.png') repeat;
+  background: url('/img/bg/groovepaper.png') repeat;
   }
 
 nav {
@@ -28,9 +28,11 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    min-width:400px;
     background-color:#111;
     padding-left:50px;
     padding-right:50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 nav h1 {
@@ -52,11 +54,20 @@ nav ul {
     height:42px;
 }
 
+#fringe {
+    height:5px;
+    position: fixed;
+    background:url('/img/fringe.gif') repeat-x;
+    top: 48px;
+    left: 0;
+    right: 0;
+}
+
 nav ul li {
     font-family:'Raleway';
-    font-weight:300;
-    font-size:24px;
-    padding: 10px 20px 0 0;
+    font-weight:200;
+    font-size:18px;
+    padding: 15px 20px 0 0;
     display: inline-block;
     height:100%;
 }
@@ -64,4 +75,43 @@ nav ul li {
 nav ul li a {
     color:#fff;
     text-decoration:none;
+}
+
+.item {
+    margin-top:150px;
+    width:40%;
+    min-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.item img {
+    width:100%;
+}
+
+.description {
+    font-family:'Roboto Slab', 'Serif';
+    text-align:justify;
+    color:#111;
+    text-shadow:none;
+    font-size:36px;
+    font-weight:300;
+    width:60%;
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.description h2 {
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+#speak {
+    margin-top:150px;
+    width:40%;
+    min-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:
 }
