@@ -41,7 +41,7 @@ nav h1 {
     font-size:36px;
     letter-spacing: -0.03em;
     font-weight: 200;
-    display:inline-block;
+    float:left;
     text-transform:uppercase;
 }
 nav h1 strong {
@@ -118,4 +118,38 @@ nav ul li a {
     color:#fff;
     margin-top:10px;
     border-radius:5px;
+}
+
+#githubFeed {
+    list-style-type:none;
+}
+
+#githubFeed li {
+    margin-bottom:30px;
+    text-align:left;
+}
+
+#githubFeed li a {
+    text-decoration: none;
+    color: #45b7af;
+}
+
+#githubFeed li a:hover {
+    color: #4ecdc4;
+}
+
+#githubLink {
+    text-decoration: none;
+    color: #af444e;
+}
+
+#githubLink:hover {
+    color: #c44d58;
+}
+
+#contact {
+    width:100%;
+    height:1000px;
+    margin-top:80px;
+    background: url('/img/bg/wood.jpg') repeat;
 }
