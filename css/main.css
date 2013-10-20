@@ -188,6 +188,9 @@ nav ul li a {
     color: #c44d58;
 }
 
+#contact {
+    margin-top:60px;
+}
 .contactIcon {
     display:inline-block;
     width:60px;
@@ -259,6 +262,8 @@ footer {
 #contactBox {
     background: url('/img/bg/twinkle_twinkle.png') repeat;
     color:#eee;
+    padding-top:40px;
+    margin-top:150px;
     width:100%;
 }
 
