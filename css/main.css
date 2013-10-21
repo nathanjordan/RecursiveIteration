@@ -8,6 +8,7 @@
   src: url('/fonts/frontage-bold.woff');
 }
 
+
 html, body {
     margin: 0px;
     width: 100%;
@@ -16,6 +17,7 @@ html, body {
 body {
     color: #fff;
     background-color: transparent;
+    overflow-x:hidden;
 }
 
 html {
@@ -25,9 +27,8 @@ html {
 header {
     width:100%;
     background: url('/img/bg/twinkle_twinkle.png') repeat;
-    padding-top:50px;
-    padding-bottom:100px;
-    box-shadow:0 -10px 15px #000 inset;
+    padding-top:100px;
+    padding-bottom:200px;
 }
 
 header div {
@@ -71,7 +72,7 @@ header h3 {
 }
 
 .item {
-    margin-top:200px;
+    margin-top:240px;
 }
 
 .item img {
@@ -86,7 +87,7 @@ header h3 {
     text-shadow:none;
     font-size:2em;
     font-weight:300;
-    margin-top:80px;
+    margin-top:40px;
 }
 
 .description h2 {
@@ -130,6 +131,7 @@ header h3 {
 
 #githubLink {
     text-align:center;
+    margin-bottom:100px;
 }
 
 #githubLink a {
@@ -159,6 +161,8 @@ header h3 {
     margin-top:40px;
     padding-bottom:60px;
     list-style-type:none;
+    font-size:2em;
+    font-family:'Roboto Slab';
 }
 
 #contactList li {
@@ -179,13 +183,6 @@ header h3 {
     color:#4ecdc4;
 }
 
-#fringeFooter {
-    display:none;
-    height:5px;
-    background:url('/img/fringe_up.gif') repeat-x;
-    margin-top:80px;
-}
-
 #contactFringe {
     background: url('/img/fringe_bottom_10.gif') repeat-x;
     clear:both;
@@ -195,7 +192,7 @@ header h3 {
 #contactBox {
     background: url('/img/bg/twinkle_twinkle.png') repeat;
     color:#eee;
-    padding-bottom:100px;
+    padding-bottom:20px;
 }
 
 .instagram {
