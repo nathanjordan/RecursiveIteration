@@ -55,6 +55,19 @@ header h3 {
     font-weight:300;
 }
 
+#sense {
+    float:right;
+    width:300px;
+    margin-top:60px;
+    margin-right:20px;
+}
+
+#headerFringe {
+    height:20px;
+    width:100%;
+    background: url('/img/fringe_top_10.gif') repeat-x;
+}
+
 nav {
     display:none;
     position: fixed;
@@ -259,11 +272,17 @@ footer {
     margin-top:80px;
 }
 
+#contactFringe {
+    background: url('/img/fringe_bottom_10.gif') repeat-x;
+    margin-top:150px;
+    width:100%;
+    height:20px;
+}
+
 #contactBox {
     background: url('/img/bg/twinkle_twinkle.png') repeat;
     color:#eee;
     padding-top:40px;
-    margin-top:150px;
     width:100%;
 }
 
