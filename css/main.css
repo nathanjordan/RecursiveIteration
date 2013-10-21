@@ -25,10 +25,13 @@ html {
 header {
     width:100%;
     background: url('/img/bg/twinkle_twinkle.png') repeat;
-    padding-left:50px;
-    padding-top:100px;
+    padding-top:50px;
     padding-bottom:100px;
     box-shadow:0 -10px 15px #000 inset;
+}
+
+header div {
+    margin-left:50px;
 }
 
 header h1 {
@@ -56,14 +59,6 @@ header h3 {
     font-weight:300;
 }
 
-#sense {
-    font-family:'Raleway';
-    font-size:2em;
-    float:right;
-    padding:0.5em 1em 0.5em 0.5em;
-    background-color:#e45f5f;
-    margin-top:60px;
-}
 
 #headerFringe {
     height:20px;
@@ -71,66 +66,8 @@ header h3 {
     background: url('/img/fringe_top_10.gif') repeat-x;
 }
 
-nav {
-    display:none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    min-width:400px;
-    background-color:#111;
-    padding-left:50px;
-    padding-right:50px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-nav h1 {
-    margin:6px 0 6px 0;
-    font-family: 'Raleway';
-    font-size:36px;
-    letter-spacing: -0.03em;
-    font-weight: 200;
-    float:left;
-    text-transform:uppercase;
-}
-nav h1 strong {
-    font-weight:300;
-    color:#FF6B6B;
-}
-
-nav ul {
-    float:right;
-    height:42px;
-}
-
-#fringe {
-    display:none;
-    height:5px;
-    position: fixed;
-    background:url('/img/fringe.gif') repeat-x;
-    top: 48px;
-    left: 0;
-    right: 0;
-}
-
-nav ul li {
-    font-family:'Raleway';
-    font-weight:200;
-    font-size:18px;
-    padding: 15px 20px 0 0;
-    display: inline-block;
-    height:100%;
-}
-
-nav ul li a {
-    color:#fff;
-    text-decoration:none;
-}
-
 .item {
     margin-top:200px;
-    width:40%;
-    max-width:700px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -146,8 +83,6 @@ nav ul li a {
     text-shadow:none;
     font-size:2em;
     font-weight:300;
-    width:60%;
-    max-width:800px;
     margin-top:80px;
     margin-left:auto;
     margin-right:auto;
