@@ -23,15 +23,16 @@ html {
   }
 
 header {
-    height:700px;
+    height:500px;
     background: url('/img/bg/twinkle_twinkle.png') repeat;
     padding-left:50px;
     padding-top:100px;
+    padding-bottom:100px;
     box-shadow:0 -10px 15px #000 inset;
 }
 
 header h1 {
-    font-size: 120px;
+    font-size: 6em;
     font-family: 'Raleway';
     text-transform:uppercase;
     letter-spacing: -0.03em;
@@ -39,11 +40,11 @@ header h1 {
 }
 
 header h2 {
-    font-size: 120px;
+    font-size: 8em;
     font-family: 'Raleway';
     text-transform:uppercase;
     letter-spacing: +0.02em;
-    font-weight:300;
+    font-weight:200;
     color:#FF6B6B;
 }
 
@@ -51,15 +52,17 @@ header h3 {
     font-family:'Raleway';
     padding-left:8px;
     color:#4ECDC4;
-    font-size:24px;
+    font-size:1.5em;
     font-weight:300;
 }
 
 #sense {
+    font-family:'Raleway';
+    font-size:2em;
     float:right;
-    width:300px;
+    padding:0.5em 1em 0.5em 0.5em;
+    background-color:#e45f5f;
     margin-top:60px;
-    margin-right:20px;
 }
 
 #headerFringe {
@@ -127,7 +130,6 @@ nav ul li a {
 .item {
     margin-top:200px;
     width:40%;
-    min-width:400px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -141,7 +143,7 @@ nav ul li a {
     text-align:justify;
     color:#111;
     text-shadow:none;
-    font-size:36px;
+    font-size:2em;
     font-weight:300;
     width:60%;
     margin-top:80px;
@@ -176,7 +178,7 @@ nav ul li a {
 #githubFeed li {
     margin-bottom:30px;
     text-align:center;
-    line-height:40px;
+    line-height:1em;
 }
 
 #githubFeed li a {
@@ -233,6 +235,7 @@ nav ul li a {
     display:inline-block;
     color:#45b7af;
     text-decoration:none;
+    word-wrap:break-word;
 }
 
 #contactList li a:hover {
