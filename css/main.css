@@ -5,6 +5,8 @@ html, body {
 }
 
 body {
+    font-family:'Roboto Slab', 'Serif';
+    font-weight:300;
     color: #222;
     background-color: transparent;
     overflow-x:hidden;
@@ -45,7 +47,7 @@ header {
     text-transform:uppercase;
     font-weight:300;
     color:#FF6B6B;
-    margin-bottom:-5%;
+    margin-bottom:-6%;
 }
 
 .taglineWrapper div {
@@ -72,17 +74,14 @@ header {
 }
 
 .description {
-    font-family:'Roboto Slab', 'Serif';
     clear:both;
     text-align:justify;
     text-shadow:none;
     font-size:2em;
-    font-weight:300;
 }
 
 h1 {
     text-align:center;
-    font-weight:bold;
 }
 
 .multiList {
@@ -149,7 +148,6 @@ h1 {
 
 .contactInfo ul {
     list-style-type:none;
-    font-family:'Roboto Slab';
     margin-bottom:2em;
 }
 
@@ -173,6 +171,7 @@ h1 {
     word-wrap:break-word;
 }
 .contactInfo ul li a.contactText {
+    font-weight:300;
     margin-left:1em;
 }
 
@@ -192,8 +191,7 @@ footer {
     margin-right:-30px;
     margin-bottom:-10px;
     background:url('/img/backgrounds/groovepaper_red.gif') repeat;
-    font-family:'Roboto Slab';
-    text-shadow:0 -1px 0 #000;
+    text-shadow:0 -1px 0 #9E4141;
     color:#fff;
     padding:0.5em;
     clear:both;
