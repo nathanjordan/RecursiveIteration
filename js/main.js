@@ -1,4 +1,5 @@
 $().ready(function() {
+    setupHeaders();
     // Gets my feed data from GitHub
     loadGithubFeed(processGithubFeed);
 });
@@ -52,4 +53,8 @@ function writeGithubFeed(processedFeed) {
         html += '<li>' + itemHTML + '</li>';
     });
     $('#githubFeed').html(html);
+}
+
+function setupHeaders() {
+    $('header div').bigtext();
 }
