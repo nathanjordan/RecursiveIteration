@@ -17,42 +17,40 @@ html {
 header {
     width:100%;
     padding-bottom:25%;
+    padding-left:4em !important;
 }
 
-.h1wrapper {
+.recursiveWrapper {
     width:70%;
 }
 
-.h2wrapper {
+.iterationWrapper {
     width:60%;
 }
-.h3wrapper {
+.taglineWrapper {
     width:50%;
 }
 
-.h1wrapper div {
+.recursiveWrapper div {
     font-family: 'Raleway';
     text-transform:uppercase;
-    letter-spacing: -0.03em;
-    font-weight:200;
+    font-weight:300;
     margin-top:0;
     margin-bottom:-10%;
 }
 
-.h2wrapper div {
+.iterationWrapper div {
     font-family: 'Raleway';
     text-transform:uppercase;
-    letter-spacing: +0.02em;
-    font-weight:200;
+    font-weight:300;
     color:#FF6B6B;
     margin-bottom:-5%;
 }
 
-.h3wrapper div {
+.taglineWrapper div {
     font-family:'Raleway';
     color:#4ECDC4;
-    /*font-size:1.5em;*/
-    font-weight:300;
+    font-weight:200;
 }
 
 
@@ -108,6 +106,7 @@ h1 {
 }
 
 .feed li {
+    text-align:left;
     margin-bottom:2em;
     line-height:1.5em;
     word-wrap:break-word;
@@ -236,15 +235,15 @@ footer {
         padding-bottom:15%;
     }
 
-    .h1wrapper {
+    .recursiveWrapper {
         width:100%;
     }
 
-    .h2wrapper {
-        width:90%;
+    .iterationWrapper {
+        width:100%;
     }
 
-    .h3wrapper {
+    .taglineWrapper {
         width:80%;
     }
 }
