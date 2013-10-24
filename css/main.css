@@ -79,7 +79,7 @@ header {
 }
 
 h1 {
-    text-align:left;
+    text-align:center;
     font-weight:bold;
 }
 
@@ -233,6 +233,7 @@ footer {
 
     header {
         padding-bottom:15%;
+        padding-left:15px!important;
     }
 
     .recursiveWrapper {
