@@ -1,16 +1,6 @@
-@font-face {
-  font-family: 'Frontage';
-  src: url('/fonts/frontage-regular.woff');
-}
-@font-face {
-  font-family: 'Frontage';
-  font-weight: bold;
-  src: url('/fonts/frontage-bold.woff');
-}
-
-
 html, body {
-    margin: 0px;
+    margin: 0;
+    padding:0;
     width: 100%;
 }
 
@@ -21,58 +11,62 @@ body {
 }
 
 html {
-  background: url('/img/bg/groovepaper.png') repeat;
+  background: url('/img/backgrounds/groovepaper.png') repeat;
   }
 
 header {
     width:100%;
-    background: url('/img/bg/twinkle_twinkle.png') repeat;
-    padding-top:100px;
-    padding-bottom:200px;
+    background: url('/img/backgrounds/twinkle_twinkle.png') repeat;
+    padding-bottom:25%;
 }
 
-header div {
-    margin-left:50px;
+#h1wrapper {
+    width:70%;
+}
+
+#h2wrapper {
+    width:60%;
+}
+#h3wrapper {
+    width:50%;
 }
 
 header h1 {
-    /*font-size: 6em;*/
     font-family: 'Raleway';
     text-transform:uppercase;
-    line-height:0.8em;
     letter-spacing: -0.03em;
     font-weight:200;
     margin-top:0;
-    margin-bottom:0;
+    margin-bottom:-22%;
 }
 
 header h2 {
-    /* font-size: 8em; */
     font-family: 'Raleway';
     text-transform:uppercase;
-    line-height:0.8em;
     letter-spacing: +0.02em;
     font-weight:200;
     color:#FF6B6B;
+    margin-bottom:-10%;
 }
 
 header h3 {
     font-family:'Raleway';
-    padding-left:8px;
     color:#4ECDC4;
     /*font-size:1.5em;*/
     font-weight:300;
+    margin-bottom:-10%;
 }
 
 
 #headerFringe {
     height:20px;
     width:100%;
-    background: url('/img/fringe_top_10.gif') repeat-x;
+    margin-bottom:-5em;
+    background: url('/img/fringe/fringe_top.gif') repeat-x;
 }
 
 .item {
-    margin-top:240px;
+    margin-top:20em;
 }
 
 .item img {
@@ -87,37 +81,37 @@ header h3 {
     text-shadow:none;
     font-size:2em;
     font-weight:300;
-    margin-top:40px;
 }
 
 .description h2 {
     font-weight:bold;
-    margin-bottom:20px;
 }
 
 .multiList {
-    margin-top:25px;
+    margin-top:2em;
     text-align:justify;
 }
 
 .multiList span {
-    padding:10px;
+    margin-top:0.5em;
+    padding:0.5em;
+    border-radius:0.3em;
     display:inline-block;
     background-color:rgba(0,0,0,0.7);
     color:#fff;
-    margin-top:25px;
-    border-radius:5px;
 }
 
 #githubFeed {
-    margin-top:80px;
+    margin-top:10%;
     list-style-type:none;
+    margin-left:0;
+    padding-left:0;
 }
 
 #githubFeed li {
-    margin-bottom:30px;
-    text-align:center;
-    line-height:1em;
+    margin-bottom:2em;
+    line-height:1.5em;
+    word-wrap:break-word;
 }
 
 #githubFeed li a {
@@ -143,40 +137,47 @@ header h3 {
     color: #c44d58;
 }
 
-#contact {
-    margin-top:60px;
-}
-.contactIcon {
-    display:inline-block;
-    width:60px;
-    height:60px;
-    margin-right:32px;
+#contactBox {
+    background: url('/img/backgrounds/twinkle_twinkle.png') repeat;
+    color:#eee;
 }
 
 #contactBox .description {
     color:#eee;
 }
 
+#contactBox .item {
+    margin-top:10em;
+    margin-bottom:3em;
+}
+
 #contactList {
-    margin-top:40px;
-    padding-bottom:60px;
     list-style-type:none;
-    font-size:2em;
     font-family:'Roboto Slab';
+    margin-bottom:2em;
 }
 
 #contactList li {
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+}
+
+.contactIcon {
+    display:inline-block;
+    width:2em;
+    height:2em;
 }
 
 #contactList li a {
     position:relative;
-    top:-20px;
     display:inline-block;
+    font-size:2em;
     color:#45b7af;
     text-decoration:none;
     word-wrap:break-word;
+}
+#contactList li a.contactText {
+    margin-left:1em;
 }
 
 #contactList li a:hover {
@@ -184,31 +185,73 @@ header h3 {
 }
 
 #contactFringe {
-    background: url('/img/fringe_bottom_10.gif') repeat-x;
+    background: url('/img/fringe/fringe_bottom.gif') repeat-x;
     clear:both;
     height:20px;
 }
 
-#contactBox {
-    background: url('/img/bg/twinkle_twinkle.png') repeat;
-    color:#eee;
-    padding-bottom:20px;
+footer {
+    position:relative;
+    left:-15px;
+    margin-right:-30px;
+    margin-bottom:-10px;
+    background:url('/img/backgrounds/twinkle_twinkle_red.gif') repeat;
+    font-family:'Roboto Slab';
+    text-shadow:0 -1px 0 #000;
+    color:#fff;
+    padding:0.5em;
+    clear:both;
+    text-align:center;
+    font-size:2em;
 }
 
-.instagram {
-    background:url('/img/icons/instagram.svg') no-repeat;
+#footerFringe {
+    position:relative;
+    left:-15px;
+    margin-right:-30px;
+    height:20px;
+    clear:both;
+    background:url('/img/fringe/fringe_footer.gif') repeat-x;
 }
-.linkedin {
-    background:url('/img/icons/linkedin.svg') no-repeat;
-}
-.email {
-    background:url('/img/icons/email.svg') no-repeat;
-}
-.gplus {
-    background:url('/img/icons/gplus.svg') no-repeat;
-}
-.twitter {
-    background:url('/img/icons/twitter.svg') no-repeat;
+
+@media screen and (max-width: 768px) {
+
+    #contactList li a.contactText {
+        display:none;
+    }
+
+    #contactList li {
+        display:inline-block;
+    }
+
+    #contactList {
+        text-align:center;
+    }
+
+    body {
+        font-size:80%;
+    }
+
+    .item {
+        padding-left:15%;
+        padding-right:15%;
+    }
+
+    header {
+        padding-bottom:15%;
+    }
+
+    #h1wrapper {
+        width:100%;
+    }
+
+    #h2wrapper {
+        width:90%;
+    }
+
+    #h3wrapper {
+        width:80%;
+    }
 }
 
 .clearfix:after {

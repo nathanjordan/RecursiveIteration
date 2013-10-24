@@ -13,13 +13,13 @@
     </head>
     <body>
         <header class="col-xs-12">
-            <div style="width:70%;">
+            <div id="h1wrapper">
                 <h1>Recursive</h1>
             </div>
-            <div style="width:60%;">
+            <div id="h2wrapper">
                 <h2>Iteration</h2>
             </div>
-            <div style="width:50%;">
+            <div id="h3wrapper">
                 <h3>An Absurdity Created By Nathan Jordan</h3>
             </div>
             <!--<div id="sense">But it doesn't make any sense!</div>-->
@@ -28,7 +28,7 @@
         </div>
         <!-- Developer/Designer -->
         <div id="venn" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/venn.svg"/>
+            <img src="/img/large/venn.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>It's a jungle out there</h2>
@@ -39,7 +39,7 @@
         </div>
         <!-- Speak Web -->
         <div id="speakWeb" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/web.svg"/>
+            <img src="/img/large/web.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>I speak web development</h2>
@@ -50,7 +50,7 @@
         </div>
         <!-- I know your web framework -->
         <div id="frameworks" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/wordpress.svg"/>
+            <img src="/img/large/wordpress.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>I'm down with your web framework</h2>
@@ -59,7 +59,7 @@
         </div>
         <!-- What I do -->
         <div id="do" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/brain.svg"/>
+            <img src="/img/large/brain.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>What I do</h2>
@@ -70,7 +70,7 @@
         </div>
         <!-- What I Know -->
         <div id="know" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/skillz.svg"/>
+            <img src="/img/large/skillz.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>What I know (in no particular order)</h2>
@@ -96,7 +96,7 @@
         </div>
         <!-- What I'm working on -->
         <div id="working" class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <img src="/img/github.svg"/>
+            <img src="/img/large/github.svg"/>
         </div>
         <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <h2>What I'm working on</h2>
@@ -114,43 +114,68 @@
         <div id="contactBox" class="col-xs-12 clearfix">
             <!-- Contact -->
             <div class="item col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-                <img src="/img/plane.svg"/>
+                <img src="/img/large/plane.svg"/>
             </div>
             <div class="description col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             Feel free to contact/follow me on any of the mediums below.
             </div>
-            <ul id="contactList" class="col-md-offset-2 col-md-8">
+            <ul id="contactList" class="col-md-offset-3 col-md-6">
                 <li>
-                    <span class="contactIcon email"></span>
-                    <a href="mailto:nathan.m.jordan@gmail.com">
+                    <span>
+                        <a href="mailto:nathan.m.jordan@gmail.com">
+                            <img src="/img/contact_icons/email.svg"/>
+                        </a>
+                    </span>
+                    <a class="contactText" href="mailto:nathan.m.jordan@gmail.com">
                         nathan.m.jordan@gmail.com
                     </a>
                 </li>
                 <li>
-                    <span class="contactIcon linkedin"></span>
-                    <a href="http://www.linkedin.com/in/jordann4">
+                    <span>
+                        <a href="http://www.linkedin.com/in/jordann4">
+                            <img src="/img/contact_icons/linkedin.svg"/>
+                        </a>
+                    </span>
+                    <a class="contactText" href="http://www.linkedin.com/in/jordann4">
                         Nathan Jordan
                     </a>
                 </li>
                 <li>
-                    <span class="contactIcon twitter"></span>
-                    <a href="https://twitter.com/natronjordan">
+                    <span>
+                        <a href="https://twitter.com/natronjordan">
+                            <img src="/img/contact_icons/twitter.svg"/>
+                        </a>
+                    </span>
+                    <a class="contactText" href="https://twitter.com/natronjordan">
                         @natronjordan
                     </a>
                 </li>
                 <li>
-                    <span class="contactIcon gplus"></span>
-                    <a href="https://plus.google.com/u/1/111085169678946264207">
-                        nathan.m.jordan
+                    <span>
+                        <a href="https://plus.google.com/u/1/111085169678946264207">
+                            <img src="/img/contact_icons/gplus.svg"/>
+                        </a>
+                    </span>
+                    <a class="contactText" href="https://plus.google.com/u/1/111085169678946264207">
+                        Nathan Jordan
                     </a>
                 </li>
                 <li>
-                    <span class="contactIcon instagram"></span>
-                    <a href="http://instagram.com/natronjordan">
+                    <span>
+                        <a href="http://instagram.com/natronjordan">
+                            <img src="/img/contact_icons/instagram.svg"/>
+                        </a>
+                    </span>
+                    <a class="contactText" href="http://instagram.com/natronjordan">
                         @natronjordan
                     </a>
                 </li>
             </ul>
+            <div id="footerFringe">
+            </div>
+            <footer>
+            Created with style in Reno, NV
+            </footer>
         </div>
         <script src="/js/lib/jquery.min.js"></script>
         <script src="/js/lib/bigtext.js"></script>
