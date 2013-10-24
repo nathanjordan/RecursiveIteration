@@ -51,6 +51,7 @@ header {
 .taglineWrapper div {
     font-family:'Raleway';
     color:#4ECDC4;
+    padding-left:0.3em;
     font-weight:200;
 }
 
