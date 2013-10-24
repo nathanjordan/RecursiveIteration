@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    color: #fff;
+    color: #222;
     background-color: transparent;
     overflow-x:hidden;
 }
@@ -16,49 +16,47 @@ html {
 
 header {
     width:100%;
-    background: url('/img/backgrounds/twinkle_twinkle.png') repeat;
     padding-bottom:25%;
 }
 
-#h1wrapper {
+.h1wrapper {
     width:70%;
 }
 
-#h2wrapper {
+.h2wrapper {
     width:60%;
 }
-#h3wrapper {
+.h3wrapper {
     width:50%;
 }
 
-header h1 {
+.h1wrapper div {
     font-family: 'Raleway';
     text-transform:uppercase;
     letter-spacing: -0.03em;
     font-weight:200;
     margin-top:0;
-    margin-bottom:-22%;
+    margin-bottom:-10%;
 }
 
-header h2 {
+.h2wrapper div {
     font-family: 'Raleway';
     text-transform:uppercase;
     letter-spacing: +0.02em;
     font-weight:200;
     color:#FF6B6B;
-    margin-bottom:-10%;
+    margin-bottom:-5%;
 }
 
-header h3 {
+.h3wrapper div {
     font-family:'Raleway';
     color:#4ECDC4;
     /*font-size:1.5em;*/
     font-weight:300;
-    margin-bottom:-10%;
 }
 
 
-#headerFringe {
+.topFringe {
     height:20px;
     width:100%;
     margin-bottom:-5em;
@@ -77,13 +75,13 @@ header h3 {
     font-family:'Roboto Slab', 'Serif';
     clear:both;
     text-align:justify;
-    color:#111;
     text-shadow:none;
     font-size:2em;
     font-weight:300;
 }
 
-.description h2 {
+h1 {
+    text-align:left;
     font-weight:bold;
 }
 
@@ -97,67 +95,64 @@ header h3 {
     padding:0.5em;
     border-radius:0.3em;
     display:inline-block;
+    background-color:#111;
     background-color:rgba(0,0,0,0.7);
     color:#fff;
 }
 
-#githubFeed {
+.feed {
     margin-top:10%;
     list-style-type:none;
     margin-left:0;
     padding-left:0;
 }
 
-#githubFeed li {
+.feed li {
     margin-bottom:2em;
     line-height:1.5em;
     word-wrap:break-word;
 }
 
-#githubFeed li a {
+.feed li a {
     text-decoration: none;
     color: #45b7af;
 }
 
-#githubFeed li a:hover {
+.feed li a:hover {
     color: #4ecdc4;
 }
 
-#githubLink {
+.centeredLink {
     text-align:center;
     margin-bottom:100px;
 }
 
-#githubLink a {
+.centeredLink a {
     text-decoration: none;
     color: #af444e;
 }
 
-#githubLink a:hover {
+.centeredLink a:hover {
     color: #c44d58;
 }
 
-#contactBox {
+.dark {
     background: url('/img/backgrounds/twinkle_twinkle.png') repeat;
     color:#eee;
 }
 
-#contactBox .description {
-    color:#eee;
-}
-
-#contactBox .item {
+.contactInfo .item {
     margin-top:10em;
     margin-bottom:3em;
 }
 
-#contactList {
+.contactInfo ul {
     list-style-type:none;
     font-family:'Roboto Slab';
     margin-bottom:2em;
 }
 
-#contactList li {
+.contactInfo ul li {
     margin-top:1.5em;
     margin-bottom:1.5em;
 }
@@ -168,7 +163,7 @@ header h3 {
     height:2em;
 }
 
-#contactList li a {
+.contactInfo ul li a {
     position:relative;
     display:inline-block;
     font-size:2em;
@@ -176,15 +171,15 @@ header h3 {
     text-decoration:none;
     word-wrap:break-word;
 }
-#contactList li a.contactText {
+.contactInfo ul li a.contactText {
     margin-left:1em;
 }
 
-#contactList li a:hover {
+.contactInfo ul li a:hover {
     color:#4ecdc4;
 }
 
-#contactFringe {
+.bottomFringe {
     background: url('/img/fringe/fringe_bottom.gif') repeat-x;
     clear:both;
     height:20px;
@@ -205,7 +200,7 @@ footer {
     font-size:2em;
 }
 
-#footerFringe {
+.footerFringe {
     position:relative;
     left:-15px;
     margin-right:-30px;
@@ -216,15 +211,15 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    #contactList li a.contactText {
+    .contactInfo ul li a.contactText {
         display:none;
     }
 
-    #contactList li {
+    .contactInfo ul li {
         display:inline-block;
     }
 
-    #contactList {
+    .contactInfo ul {
         text-align:center;
     }
 
@@ -241,15 +236,15 @@ footer {
         padding-bottom:15%;
     }
 
-    #h1wrapper {
+    .h1wrapper {
         width:100%;
     }
 
-    #h2wrapper {
+    .h2wrapper {
         width:90%;
     }
 
-    #h3wrapper {
+    .h3wrapper {
         width:80%;
     }
 }
