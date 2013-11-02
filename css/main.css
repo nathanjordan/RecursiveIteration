@@ -5,6 +5,8 @@ html, body {
 }
 
 body {
+    font-family:'Roboto Slab', 'Serif';
+    font-weight:300;
     color: #222;
     background-color: transparent;
     overflow-x:hidden;
@@ -16,8 +18,9 @@ html {
 
 header {
     width:100%;
-    padding-bottom:25%;
+    padding-bottom:30%;
     padding-left:4em !important;
+    background-color:#f00;
 }
 
 .recursiveWrapper {
@@ -44,12 +47,13 @@ header {
     text-transform:uppercase;
     font-weight:300;
     color:#FF6B6B;
-    margin-bottom:-5%;
+    margin-bottom:-6%;
 }
 
 .taglineWrapper div {
     font-family:'Raleway';
     color:#4ECDC4;
+    padding-left:0.3em;
     font-weight:200;
 }
 
@@ -70,17 +74,14 @@ header {
 }
 
 .description {
-    font-family:'Roboto Slab', 'Serif';
     clear:both;
     text-align:justify;
     text-shadow:none;
     font-size:2em;
-    font-weight:300;
 }
 
 h1 {
     text-align:center;
-    font-weight:bold;
 }
 
 .multiList {
@@ -147,7 +148,6 @@ h1 {
 
 .contactInfo ul {
     list-style-type:none;
-    font-family:'Roboto Slab';
     margin-bottom:2em;
 }
 
@@ -171,6 +171,7 @@ h1 {
     word-wrap:break-word;
 }
 .contactInfo ul li a.contactText {
+    font-weight:300;
     margin-left:1em;
 }
 
@@ -189,9 +190,8 @@ footer {
     left:-15px;
     margin-right:-30px;
     margin-bottom:-10px;
-    background:url('/img/backgrounds/twinkle_twinkle_red.gif') repeat;
-    font-family:'Roboto Slab';
-    text-shadow:0 -1px 0 #000;
+    background:url('/img/backgrounds/groovepaper_red.gif') repeat;
+    text-shadow:0 -1px 0 #9E4141;
     color:#fff;
     padding:0.5em;
     clear:both;
