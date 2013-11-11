@@ -15,19 +15,24 @@ function loadGithubFeed(callback) {
 function processGithubFeed(feed) {
     var processedFeed;
     // only the top 6 things
-    feed = feed.slice(0,5);
+    feedCounter = 0;
     processedFeed = _.map(feed, function(item) {
         var i = {};
+        if (feedCounter > 4) {
+            return;   
+        }
         if (item.type === "PushEvent") {
             i.action = 'I pushed ';
             i.what = String(item.payload.distinct_size) + ' commits to ';
             i.to = item.repo.name;
             i.to_url = item.repo.url.replace('api.','').replace('repos/','');
             i.date = item.created_at;
+            feedCounter++;
         } else if (item.type === "CreateEvent") {
             i.action = 'I created ';
             i.what = item.repo.name;
             i.date = item.created_at;
+            feedCounter++;
         } else {
             return;
         }
